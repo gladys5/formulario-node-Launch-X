@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>practica node</title>
+</head>
+
+<body>
+    <div style="margin: 24px;">
+        <nav class="navbar  navbar-inverse navbar-static-top">
+            <div class="container">
+                <a href="/" class="navbar-brand">Launch X</a>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/">HOME</a>
+                    </li>
+                    <li>
+                        <a href="/contacto">CONTACTO</a>
+                    </li>
+                    <li>
+                        <a href="/perfil">PERFIL</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h1>Launch X</h1>
+            <p>Registrate a Launch X</p>
+            <div class="container">
+                <form method="post" action="/">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label for="">Nombre</label>
+                            <input type="text" name="first_name" id="nombre" class="form-control">
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="">Email</label>
+                            <input type="email" name="email_address" id="correo" class="form-control">
+                        </div>
+                        <div class="col-sm-4">
+
+                            <input type="submit" name="submit_button" class="btn btn-primary" value="registrarse">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
