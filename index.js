@@ -15,6 +15,10 @@ router.get("/contacto", (req, res) => {
 router.get("/perfil", (req, res) => {
   res.sendFile(path.join(__dirname + "/templates/perfil.html"))
 })
+
+// router.post("/", (req, res) => {
+//   res.send("El usuario " + req.body.first_name + " se ha registrado con éxito")
+// })
 router.post("/", (req, res) => {
   res.send(req.body)
 })
